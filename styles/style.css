@@ -1,0 +1,86 @@
+* {
+    
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-size: 10px;
+    /* px signifie 'pixels': la taille de base pour la police est désormais 10 pixels de haut  */
+    font-family: 'Nunito', sans-serif;
+    /* cela devrait être le reste du résultat obtenu à partir de Google fonts */
+    background-color: #3dc3ff;
+}
+
+body {
+    padding: 0;
+    margin: 0 auto;
+}
+
+p,
+li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+header {
+    position: relative;
+    top:0px;
+    left:0px;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #32508d;
+    padding: auto;
+    border: 0px solid black;
+}
+
+section {
+    position: relative static;
+    width: 70%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 0 20px 20px 20px;
+    border: 0px solid black;
+}
+
+footer {
+    left:0px;
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #32508d;
+    padding: 0 20px 20px 20px;
+    border: 0px solid black;
+    position:absolute; 
+    bottom: 0 auto;
+}
+
+
+
+h2 {
+    font-size: 60px;
+    margin: 0;
+    padding: 20px 0;
+    color: #00539F;
+    text-shadow: 3px 3px 1px black;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+
+.centre {
+    text-align: center;
+    margin: 0 auto;
+}
+
+a {
+    color:white;
+}
