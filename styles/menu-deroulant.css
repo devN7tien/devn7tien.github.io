@@ -87,8 +87,8 @@ nav > ul li:hover .sous {
     display: none;
     box-shadow: 0px 0px 0px;
     background-color: #3dc3ff;
-    position: absolute;
-    z-index: 1000;
+    position: relative;
+    z-index: 2000;
 }
 
 

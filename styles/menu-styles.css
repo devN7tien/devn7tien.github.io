@@ -47,6 +47,10 @@ a:hover {
     margin-right: 40px;
     cursor: pointer;
     display: none;
+    position: absolute;
+    left: 80%;
+    width: 30%;
+    z-index: 1000;
 }
 
 #check {
@@ -69,20 +73,28 @@ a:hover {
         display: block;
     }
 
-    nav ul {
+    .menu {
+        padding: 0;
+    }
+
+    nav .menu {
+        top: 0;
         position: fixed;
         width: 100%;
-        height: 100vh;
+        height: 100%;
         background: #27282c;
-        top: 80px;
-        left: -100%;
+        left: 100%;
         text-align: center;
         transition: all .5s;
+        margin: 0 auto;
+        z-index: 500;
     }
+
+
 
     nav ul li {
         display: block;
-        margin: 50px 0;
+        margin: 20px 0;
         line-height: 30px;
     }
 
@@ -103,5 +115,47 @@ a:hover {
 
     #check:checked~ul {
         left: 0;
+    }
+
+    nav ul li {
+        width: 100%;
+    }
+
+
+    nav a{
+        color: white;
+    }
+    
+    nav a:hover{
+        color: black;
+    }
+
+    .sous {
+        position :  relative;
+        background-color: #27282c;
+    }
+
+    .sous2 {
+        position :  relative;
+        background-color: #27282c;
+    }
+
+    nav .deroulant ul li a {
+        color: white;
+    }
+
+    nav .deroulant ul li a:hover {
+        color: black;
+    }
+
+    nav .active:hover {
+        color: black;
+        transition: .5s;
+    }
+
+
+    nav  .active {
+        color: #3dc3ff;
+        transition: .5s;
     }
 }

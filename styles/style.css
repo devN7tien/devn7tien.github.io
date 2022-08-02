@@ -34,8 +34,8 @@ header {
     width: 100%;
     margin: 0 auto;
     background-color: #32508d;
-    padding: auto;
     border: 0px solid black;
+    z-index: 2;
 }
 
 section {
@@ -83,4 +83,15 @@ img {
 
 a {
     color:white;
+}
+section a {
+    color:#32508d;
+}
+
+h3 {
+    font-size: 50px;
+    margin: 0;
+    padding: 20px 0;
+    color: #00539F;
+    text-align: left;
 }
