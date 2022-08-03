@@ -1,5 +1,9 @@
 
 
+
+
+
+
 @media (max-width: 600px) {
     h2 {
         font-size: 25px;
@@ -11,7 +15,7 @@
     }
 
     h3 {
-        font-size: 8px;
+        font-size: 15px;
         line-height: 2;
         letter-spacing: 1px;
         font-weight: lighter;
