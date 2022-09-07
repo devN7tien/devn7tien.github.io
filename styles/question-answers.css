@@ -1,0 +1,46 @@
+.answer {
+    display: none;
+    box-shadow: 0px 0px 0px;
+    position: relative;
+    z-index: 1000;
+}
+
+
+#check {
+    display: none;
+}
+
+input#check3 {
+    display: none;
+}
+
+.checkbtn3 {
+    display: block;
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+    z-index: 1000;
+
+
+
+}
+
+.vhaut {
+    display: none;
+}
+
+.vbas {
+    display: block;
+}
+
+#check3:checked~.answer {
+    display: block;
+}
+
+#check3:checked~label i.vbas {
+    display: none;
+}
+
+#check3:checked~label i.vhaut {
+    display: block;
+}
