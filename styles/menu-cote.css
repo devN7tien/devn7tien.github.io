@@ -1,0 +1,188 @@
+
+
+
+.cote nav {
+    z-index: 9;
+}
+
+.cote nav ul {
+    margin-right: 10px;
+}
+
+.cote nav ul li {
+    display: block;
+    line-height: 20px;
+    margin: 0 5px;
+    float: left;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.cote nav ul li a {
+    color: #fff;
+    font-size: 13px;
+    padding: 3px 7px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+.cote a.active {
+    background: #fff;
+    transition: .5s;
+    color: #022f69;
+}
+
+
+
+
+
+.cote a:hover {
+    background: #3dc3ff;
+    transition: .5s;
+    color: #022f69;
+}
+
+.cote .checkbtn2 {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 40px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    left: 5%;
+    width: 90%;
+}
+
+.cote #check2 {
+    display: none;
+}
+
+
+.cote nav .deroulant ul li .active {
+    color: #0b6b7e;
+    transition: .5s;
+}
+
+.cote nav .deroulant ul li .active:hover {
+    color: white;
+    transition: .5s;
+}
+
+@media (min-width: 876px) {
+    .cote label.logo {
+        font-size: 30px;
+        padding-left: 50px;
+    }
+
+    .cote nav ul li a {
+        font-size: 10px;
+    }
+
+    
+}
+
+@media (max-width: 875px) {
+    .cote .checkbtn2 {
+        display: block;
+    }
+
+
+    .cote nav .menu2 {
+        top: 0;
+        position:fixed;
+        width: 85%;
+        height: 100%;
+        background: #27282c;
+        left: 100%;
+        text-align: center;
+        transition: all .5s;
+        margin: 0 auto;
+        z-index: 500;
+    }
+
+    .cote nav .menu2 li {
+        top: 10%;
+    }
+
+    .cote nav .sous, nav .sous2 {
+        background-color: #27282c;
+    }
+
+    .cote nav .deroulant ul li a {
+        color: white;
+    }
+
+    .cote nav .menu2 li {
+        display: block;
+        margin: 20px 0;
+        line-height: 100%;
+    }
+
+    .cote nav .menu2 li a {
+        font-size: 13px;
+
+    }
+
+    .cote a.active {
+        background: none;
+        color: white;
+    }
+
+    .cote a:hover {
+        background: #0b6b7e;
+        transition: .5s;
+        background-color: white;
+    }
+
+    .cote nav a:hover {
+        color: black;
+    }
+
+    .cote nav .deroulant ul li a:hover {
+        color: black;
+    }
+
+    .cote #check2:checked~ul {
+        left: 15%;
+    }
+
+    .cote nav .deroulant ul li .active:hover {
+        color: black;
+        transition: .5s;
+    }
+
+
+    .cote nav .deroulant  .active {
+        color: #0b6b7e;
+        transition: .5s;
+    }
+
+
+    .cote .sous {
+        background-color: black;
+    }
+    
+}
+
+section.cote  {
+    position: fixed;
+    float: left;
+    width: 15%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #3dc3ff;
+    padding: 20px 20px 20px 20px;
+    border: 0px solid black;
+}
+
+.cote nav {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #3dc3ff;
+    position: sticky;
+    top: 0px;
+    padding-top: 10px;
+}
