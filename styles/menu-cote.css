@@ -176,6 +176,7 @@ section.cote  {
     background-color: #3dc3ff;
     padding: 20px 20px 20px 20px;
     border: 0px solid black;
+    z-index: auto;
 }
 
 .cote nav {
