@@ -28,7 +28,7 @@ function setFooter() {
                 document.getElementById('footer');
             var contentHeight =
                 document.getElementById('content').offsetHeight;
-            
+
             var footerHeight = footerElement.offsetHeight;
             if (windowHeight - (contentHeight + footerHeight) >= 0) {
                 footerElement.style.position = 'relative';
@@ -43,3 +43,10 @@ function setFooter() {
 }
 
 setFooter();
+
+
+function resize() {
+  setFooter();
+}
+
+window.onresize = resize;
